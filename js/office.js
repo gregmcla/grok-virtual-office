@@ -180,6 +180,7 @@
         isHuman: !!a.isHuman,
         state: a.walking ? "walking" : a.state,
         location: a.walking ? "walking" : a.location,
+        destRoom: a.destRoom || null,
         task: a.task || "",
         deliverable: a.deliverable || "",
         x: a.x,

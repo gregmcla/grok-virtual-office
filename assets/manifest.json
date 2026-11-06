@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "iconSize": { "min": 48, "max": 64, "preferred": 56 },
+  "iconSize": {
+    "min": 48,
+    "max": 64,
+    "preferred": 56
+  },
   "palette": {
     "source": "palette.json",
     "idle": "#64748B",
@@ -19,7 +23,7 @@
     "gregs-office": "room-greg-office.svg",
     "desk-floor": "room-work-floor.svg",
     "lounge": "room-lounge.svg",
-    "review": "room-lobby.svg"
+    "review": "room-review.svg"
   },
   "desk": "desk.svg",
   "statusDots": {
@@ -49,5 +53,5 @@
     "trax-researcher": "avatar-trax-researcher.svg",
     "gamer": "avatar-gamer.svg"
   },
-  "notes": "Drop SVGs next to this file (or under avatars/). Missing files fall back to text tags + palette defaults. Avatars designed for crisp 48-64px. Review room currently reuses room-lobby.svg until Larry delivers room-review.svg."
+  "notes": "Avatars 48-64px. Review uses room-review.svg. Missing files fall back to text tags."
 }

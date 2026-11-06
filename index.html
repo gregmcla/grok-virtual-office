@@ -8,37 +8,47 @@
   <link rel="stylesheet" href="css/office.css" />
 </head>
 <body>
-  <div id="app">
-    <header class="app-bar">
+  <div id="app" class="mode-visual">
+    <header class="app-bar glass">
       <div class="logo">G</div>
-      <h1>Virtual Office <span>Greg McLaughlin · Grok Bot team · text map v0</span></h1>
+      <h1>Virtual Office <span>Greg McLaughlin · Midnight Studio</span></h1>
       <div id="demo-log"></div>
       <div class="spacer"></div>
+      <button type="button" class="btn btn-ghost" id="view-toggle" title="Toggle ASCII / visual">ASCII</button>
       <div id="clock">--:--</div>
     </header>
 
     <main class="stage">
-      <div class="legend">
+      <div class="legend glass">
         <span><i class="l-idle"></i>Idle</span>
         <span><i class="l-walk"></i>Walking</span>
         <span><i class="l-work"></i>Working</span>
         <span><i class="l-meet"></i>Meeting</span>
         <span><i class="l-review"></i>Review</span>
       </div>
-      <pre id="office-map" aria-label="Virtual office text map">Loading office…</pre>
-      <div class="event-box">
+
+      <div id="visual-stage" class="visual-stage glass">
+        <div class="ambient-glow" aria-hidden="true"></div>
+        <div class="sparkle-layer" id="sparkle-layer" aria-hidden="true"></div>
+        <svg id="office-svg" viewBox="0 0 1600 900" role="img" aria-label="Virtual office floor plan"></svg>
+        <div id="fx-layer"></div>
+      </div>
+
+      <pre id="office-map" class="ascii-map" aria-label="Virtual office text map" hidden>Loading…</pre>
+
+      <div class="event-box glass">
         <h2>Event log</h2>
         <div id="event-log"></div>
       </div>
     </main>
 
-    <aside class="sidebar">
+    <aside class="sidebar glass-side">
       <div class="btn-row">
         <button type="button" class="btn btn-primary" id="demo-btn">▶ Demo day</button>
         <button type="button" class="btn btn-secondary" id="reset-btn">Reset</button>
       </div>
 
-      <div class="controls">
+      <div class="controls glass-panel">
         <label class="field">Bot
           <select id="bot-select"></select>
         </label>
@@ -49,7 +59,7 @@
           <button type="button" class="btn btn-primary" id="assign-btn">Assign</button>
           <button type="button" class="btn btn-secondary" id="finish-btn">Finish</button>
         </div>
-        <hr style="border:0;border-top:1px solid #2a3548;margin:10px 0;" />
+        <hr class="sep" />
         <label class="field">Meet
           <select id="meet-a"></select>
         </label>
@@ -66,7 +76,6 @@
     </aside>
   </div>
 
-  <!-- TEXT MAP v0 — do not add SVG roster/state/layout/assets scripts here -->
   <script src="js/office.js"></script>
   <script src="js/renderer.js"></script>
   <script src="js/demo.js"></script>
@@ -74,12 +83,10 @@
     OfficeRenderer.mount();
     office.boot().then(() => {
       const params = new URLSearchParams(location.search);
-      if (params.get("demo") === "1") {
-        setTimeout(() => OfficeDemo.run(), 400);
-      }
+      if (params.get("demo") === "1") setTimeout(() => OfficeDemo.run(), 400);
     }).catch((err) => {
       const map = document.getElementById("office-map");
-      if (map) map.textContent = "Boot failed: " + err.message;
+      if (map) { map.hidden = false; map.textContent = "Boot failed: " + err.message; }
       console.error(err);
     });
   </script>
