@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <circle cx="32" cy="32" r="30" fill="#E11D48" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+
+  <path d="M14 18 Q14 14 20 14 H44 Q50 14 50 20 V36 Q50 42 44 42 H28 L18 50 L20 42 H20 Q14 42 14 36 Z" fill="#F1F5F9"/>
+  <!-- lightning -->
+  <path d="M34 18 L28 30 H34 L30 42 L42 26 H35 L40 18 Z" fill="#E11D48"/>
+
+
+</svg>

@@ -1,0 +1,49 @@
+{
+  "name": "Midnight Studio",
+  "colors": {
+    "background": {
+      "name": "Midnight Void",
+      "hex": "#0B1220"
+    },
+    "floor": {
+      "name": "Warm Slate",
+      "hex": "#1A2332"
+    },
+    "walls": {
+      "name": "Steel Shadow",
+      "hex": "#2A3548"
+    },
+    "surface": {
+      "name": "Soft Panel",
+      "hex": "#243044"
+    },
+    "accent": {
+      "name": "Electric Teal",
+      "hex": "#2DD4BF"
+    },
+    "accent2": {
+      "name": "Soft Gold",
+      "hex": "#FBBF24"
+    },
+    "text": {
+      "name": "Porcelain",
+      "hex": "#F1F5F9"
+    },
+    "idle": {
+      "name": "Quiet Steel",
+      "hex": "#64748B"
+    },
+    "working": {
+      "name": "Amber Signal",
+      "hex": "#F59E0B"
+    },
+    "meeting": {
+      "name": "Violet Pulse",
+      "hex": "#A78BFA"
+    },
+    "review": {
+      "name": "Mint Ready",
+      "hex": "#34D399"
+    }
+  }
+}

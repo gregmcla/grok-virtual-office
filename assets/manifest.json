@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "iconSize": { "min": 48, "max": 64, "preferred": 56 },
+  "palette": {
+    "source": "palette.json",
+    "idle": "#64748B",
+    "working": "#F59E0B",
+    "meeting": "#A78BFA",
+    "review": "#34D399",
+    "background": "#0B1220",
+    "floor": "#1A2332",
+    "walls": "#2A3548",
+    "surface": "#243044",
+    "accent": "#2DD4BF",
+    "accent2": "#FBBF24",
+    "text": "#F1F5F9"
+  },
+  "rooms": {
+    "gregs-office": "room-greg-office.svg",
+    "desk-floor": "room-work-floor.svg",
+    "lounge": "room-lounge.svg",
+    "review": "room-lobby.svg"
+  },
+  "desk": "desk.svg",
+  "statusDots": {
+    "idle": "status-dot-idle.svg",
+    "working": "status-dot-working.svg",
+    "meeting": "status-dot-meeting.svg",
+    "review": "status-dot-review.svg"
+  },
+  "avatars": {
+    "greg": "avatar-greg.svg",
+    "gary-general": "avatar-gary-general.svg",
+    "ludovico-di-varthema": "avatar-ludovico-di-varthema.svg",
+    "larry-logo": "avatar-larry-logo.svg",
+    "randy-resume-builder": "avatar-randy-resume-builder.svg",
+    "opportunity-agent": "avatar-opportunity-agent.svg",
+    "juice-lord": "avatar-juice-lord.svg",
+    "mcr-storyteller": "avatar-mcr-storyteller.svg",
+    "viral-tweet-crafter": "avatar-viral-tweet-crafter.svg",
+    "apply-ops": "avatar-apply-ops.svg",
+    "harry-doorway-lead": "avatar-harry-doorway-lead.svg",
+    "distilled-roon": "avatar-distilled-roon.svg",
+    "distill-anyone": "avatar-distill-anyone.svg",
+    "general-bot": "avatar-general-bot.svg",
+    "logo-lab": "avatar-logo-lab.svg",
+    "cover-writer": "avatar-cover-writer.svg",
+    "golf-economy-expert": "avatar-golf-economy-expert.svg",
+    "trax-researcher": "avatar-trax-researcher.svg",
+    "gamer": "avatar-gamer.svg"
+  },
+  "notes": "Drop SVGs next to this file (or under avatars/). Missing files fall back to text tags + palette defaults. Avatars designed for crisp 48-64px. Review room currently reuses room-lobby.svg until Larry delivers room-review.svg."
+}

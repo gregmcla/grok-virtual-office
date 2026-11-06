@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#0B1220" />
+  <title>Virtual Office · Greg McLaughlin</title>
+  <link rel="stylesheet" href="css/office.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-bar">
+      <div class="logo">G</div>
+      <h1>Virtual Office <span>Greg McLaughlin · Grok Bot team · text map v0</span></h1>
+      <div id="demo-log"></div>
+      <div class="spacer"></div>
+      <div id="clock">--:--</div>
+    </header>
+
+    <main class="stage">
+      <div class="legend">
+        <span><i class="l-idle"></i>Idle</span>
+        <span><i class="l-walk"></i>Walking</span>
+        <span><i class="l-work"></i>Working</span>
+        <span><i class="l-meet"></i>Meeting</span>
+        <span><i class="l-review"></i>Review</span>
+      </div>
+      <pre id="office-map" aria-label="Virtual office text map">Loading office…</pre>
+      <div class="event-box">
+        <h2>Event log</h2>
+        <div id="event-log"></div>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="demo-btn">▶ Demo day</button>
+        <button type="button" class="btn btn-secondary" id="reset-btn">Reset</button>
+      </div>
+
+      <div class="controls">
+        <label class="field">Bot
+          <select id="bot-select"></select>
+        </label>
+        <label class="field">Task / deliverable
+          <textarea id="task-input" placeholder="e.g. Verify JD for Anthropic role"></textarea>
+        </label>
+        <div class="btn-row">
+          <button type="button" class="btn btn-primary" id="assign-btn">Assign</button>
+          <button type="button" class="btn btn-secondary" id="finish-btn">Finish</button>
+        </div>
+        <hr style="border:0;border-top:1px solid #2a3548;margin:10px 0;" />
+        <label class="field">Meet
+          <select id="meet-a"></select>
+        </label>
+        <label class="field">with
+          <select id="meet-b"></select>
+        </label>
+        <label class="field">Topic
+          <input type="text" id="meet-topic" value="Quick sync" />
+        </label>
+        <button type="button" class="btn btn-warn" id="meet-btn">Send to Lounge</button>
+      </div>
+
+      <div id="roster-panel" aria-label="Team roster"></div>
+    </aside>
+  </div>
+
+  <!-- TEXT MAP v0 — do not add SVG roster/state/layout/assets scripts here -->
+  <script src="js/office.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/demo.js"></script>
+  <script>
+    OfficeRenderer.mount();
+    office.boot().then(() => {
+      const params = new URLSearchParams(location.search);
+      if (params.get("demo") === "1") {
+        setTimeout(() => OfficeDemo.run(), 400);
+      }
+    }).catch((err) => {
+      const map = document.getElementById("office-map");
+      if (map) map.textContent = "Boot failed: " + err.message;
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

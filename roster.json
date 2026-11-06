@@ -1,0 +1,145 @@
+{
+  "rooms": [
+    { "id": "gregs-office", "name": "Greg's Office", "short": "OFFICE" },
+    { "id": "desk-floor", "name": "Desk Floor", "short": "FLOOR" },
+    { "id": "lounge", "name": "Lounge", "short": "LOUNGE" },
+    { "id": "review", "name": "Review", "short": "REVIEW" }
+  ],
+  "states": ["idle", "working", "meeting", "review"],
+  "owner": {
+    "id": "greg",
+    "name": "Greg",
+    "short": "GREG",
+    "role": "Owner",
+    "isHuman": true,
+    "homeRoom": "gregs-office"
+  },
+  "bots": [
+    {
+      "id": "4ac8c7f3-d188-47fe-8df7-915b5dd24255",
+      "slug": "gary-general",
+      "name": "Gary General",
+      "short": "GARY",
+      "role": "Manager"
+    },
+    {
+      "id": "194bbcc6-16c3-4230-812b-6f11aa6316fe",
+      "slug": "ludovico-di-varthema",
+      "name": "Ludovico di Varthema",
+      "short": "LUDO",
+      "role": "Traveler persona"
+    },
+    {
+      "id": "38093392-e2d4-41eb-83e7-2f79e8db3b2f",
+      "slug": "larry-logo",
+      "name": "Larry Logo",
+      "short": "LARRY",
+      "role": "Visual identity"
+    },
+    {
+      "id": "64c500f0-86f8-4c23-a1dd-6a49a0eec958",
+      "slug": "randy-resume-builder",
+      "name": "Randy Resume Builder",
+      "short": "RANDY",
+      "role": "Resume builder"
+    },
+    {
+      "id": "75374189-59a2-4aad-9d39-6f42f6501bda",
+      "slug": "opportunity-agent",
+      "name": "Opportunity Agent",
+      "short": "OPP",
+      "role": "Opportunity scorer"
+    },
+    {
+      "id": "a4fdc44e-da65-457f-9743-29c6a59c0aff",
+      "slug": "juice-lord",
+      "name": "Juice Lord",
+      "short": "JUICE",
+      "role": "X Chat juice"
+    },
+    {
+      "id": "adcd399b-97cc-40a6-b1d7-90cfb5bbeac7",
+      "slug": "mcr-storyteller",
+      "name": "MCR Storyteller",
+      "short": "MCR",
+      "role": "Proof packs"
+    },
+    {
+      "id": "b3e9da6e-6e5f-4fa1-bd48-d1b7ec622302",
+      "slug": "viral-tweet-crafter",
+      "name": "Viral Tweet Crafter",
+      "short": "VIRAL",
+      "role": "Viral posts"
+    },
+    {
+      "id": "b67d15c2-c9fa-43bb-9ad7-064655db19c8",
+      "slug": "apply-ops",
+      "name": "Apply Ops",
+      "short": "APPLY",
+      "role": "Applications"
+    },
+    {
+      "id": "c6d3b414-e808-4d10-bea4-ecb1024ead03",
+      "slug": "harry-doorway-lead",
+      "name": "Harry Doorway Lead",
+      "short": "HARRY",
+      "role": "Job search lead"
+    },
+    {
+      "id": "c7c4de59-ebdb-45f9-8de6-6d945e2fc263",
+      "slug": "distilled-roon",
+      "name": "Distilled roon",
+      "short": "ROON",
+      "role": "Distilled persona"
+    },
+    {
+      "id": "c8116853-b2d4-4b8c-9a4b-1a4391750534",
+      "slug": "distill-anyone",
+      "name": "Distill anyone",
+      "short": "DSTL",
+      "role": "Voice distillation"
+    },
+    {
+      "id": "e40f89dd-2d5b-4473-96d3-00add928ca2c",
+      "slug": "general-bot",
+      "name": "general bot",
+      "short": "GEN",
+      "role": "Generalist"
+    },
+    {
+      "id": "e76d10be-9f1e-4a2d-b4df-09529e853043",
+      "slug": "logo-lab",
+      "name": "Logo Lab",
+      "short": "LAB",
+      "role": "Logo production"
+    },
+    {
+      "id": "f4615b27-c7b7-4255-be9c-1e8521df963c",
+      "slug": "cover-writer",
+      "name": "Cover Writer",
+      "short": "COVER",
+      "role": "Cover letters"
+    },
+    {
+      "id": "fcb57045-6c41-446b-8217-4b22965de2f9",
+      "slug": "golf-economy-expert",
+      "name": "Golf Economy Game and Research Expert",
+      "short": "GOLF",
+      "role": "Golf research"
+    },
+    {
+      "id": "7115bc9f-0ac8-4c5e-ac8d-34b197cb2a39",
+      "slug": "trax-researcher",
+      "name": "TRAX Researcher",
+      "short": "TRAX",
+      "role": "Research"
+    },
+    {
+      "id": "c734edbe-e355-47e9-8141-b7fe1b2194c1",
+      "slug": "gamer",
+      "name": "Gamer",
+      "short": "GAME",
+      "role": "Games"
+    }
+  ]
+}

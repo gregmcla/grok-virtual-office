@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#6366F1" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+
+  <!-- retort body -->
+  <circle cx="28" cy="36" r="14" fill="#F1F5F9"/>
+  <!-- neck + spout -->
+  <path d="M28 22 L34 10 L40 12 L48 8 L50 14 L42 18 L38 22 Z" fill="#F1F5F9"/>
+  <path d="M48 8 Q56 16 50 28" fill="none" stroke="#2DD4BF" stroke-width="3" stroke-linecap="round"/>
+  <!-- liquid -->
+  <ellipse cx="28" cy="40" rx="10" ry="7" fill="#A5B4FC"/>
+  <!-- drop -->
+  <path d="M52 30 Q56 36 52 42 Q48 36 52 30 Z" fill="#2DD4BF"/>
+
+</svg>

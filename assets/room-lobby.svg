@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+
+  <!-- outer wall -->
+  <rect x="8" y="8" width="784" height="484" rx="18" fill="#2A3548"/>
+  <!-- inner floor -->
+  <rect x="28" y="28" width="744" height="444" rx="10" fill="#1A2332"/>
+  <!-- subtle floor grain -->
+  <g opacity="0.18" stroke="#243044" stroke-width="1.5" fill="none">
+    <path d="M60 80 H740 M60 140 H740 M60 200 H740 M60 260 H740 M60 320 H740 M60 380 H740 M60 440 H740"/>
+  </g>
+  
+  
+  <!-- entrance door (bottom center) -->
+  <rect x="320" y="400" width="160" height="70" rx="6" fill="#0B1220" stroke="#2DD4BF" stroke-width="4"/>
+  <rect x="335" y="415" width="130" height="45" rx="3" fill="#243044"/>
+  <circle cx="450" cy="438" r="6" fill="#FBBF24"/>
+  <!-- welcome mat -->
+  <rect x="340" y="360" width="120" height="35" rx="4" fill="#2DD4BF" opacity="0.45"/>
+  <rect x="350" y="368" width="100" height="19" rx="2" fill="#2DD4BF" opacity="0.7"/>
+  <!-- reception desk -->
+  <path d="M200 140 H600 Q640 140 640 180 V240 H160 V180 Q160 140 200 140 Z"
+        fill="#2A3548" stroke="#F1F5F9" stroke-width="2"/>
+  <rect x="220" y="160" width="360" height="60" rx="4" fill="#243044"/>
+  <!-- monitor on desk -->
+  <rect x="360" y="170" width="80" height="40" rx="3" fill="#0B1220" stroke="#2DD4BF" stroke-width="2"/>
+  <!-- plant left -->
+  <circle cx="120" cy="200" r="30" fill="#166534"/>
+  <circle cx="108" cy="188" r="14" fill="#22C55E"/>
+  <rect x="112" y="220" width="14" height="30" rx="2" fill="#78350F"/>
+  <!-- hanging sign area -->
+  <rect x="300" y="50" width="200" height="50" rx="8" fill="#2DD4BF" opacity="0.3"/>
+  <rect x="320" y="60" width="160" height="30" rx="4" fill="#2DD4BF" opacity="0.55"/>
+
+
+</svg>

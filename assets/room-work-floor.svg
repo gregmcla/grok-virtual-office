@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect x="8" y="8" width="784" height="484" rx="18" fill="#2A3548"/>
+  <rect x="28" y="28" width="744" height="444" rx="10" fill="#1A2332"/>
+  <g opacity="0.15" stroke="#243044" stroke-width="1.5" fill="none">
+    <path d="M60 80 H740 M60 140 H740 M60 200 H740 M60 260 H740 M60 320 H740 M60 380 H740 M60 440 H740"/>
+  </g>
+  <!-- desk pads -->
+  <g fill="#243044" stroke="#2DD4BF" stroke-width="2.5" stroke-dasharray="7 5">
+    <rect x="60"  y="60"  width="150" height="120" rx="10"/>
+    <rect x="240" y="60"  width="150" height="120" rx="10"/>
+    <rect x="420" y="60"  width="150" height="120" rx="10"/>
+    <rect x="600" y="60"  width="140" height="120" rx="10"/>
+    <rect x="140" y="250" width="150" height="120" rx="10"/>
+    <rect x="330" y="250" width="150" height="120" rx="10"/>
+    <rect x="520" y="250" width="150" height="120" rx="10"/>
+  </g>
+  <!-- mini desk glyphs inside pads -->
+  <g fill="#2A3548">
+    <rect x="90"  y="95"  width="90" height="40" rx="4"/>
+    <rect x="270" y="95"  width="90" height="40" rx="4"/>
+    <rect x="450" y="95"  width="90" height="40" rx="4"/>
+    <rect x="625" y="95"  width="90" height="40" rx="4"/>
+    <rect x="170" y="285" width="90" height="40" rx="4"/>
+    <rect x="360" y="285" width="90" height="40" rx="4"/>
+    <rect x="550" y="285" width="90" height="40" rx="4"/>
+  </g>
+  <g fill="#2DD4BF" opacity="0.5">
+    <rect x="115" y="145" width="40" height="18" rx="4"/>
+    <rect x="295" y="145" width="40" height="18" rx="4"/>
+    <rect x="475" y="145" width="40" height="18" rx="4"/>
+    <rect x="650" y="145" width="40" height="18" rx="4"/>
+    <rect x="195" y="335" width="40" height="18" rx="4"/>
+    <rect x="385" y="335" width="40" height="18" rx="4"/>
+    <rect x="575" y="335" width="40" height="18" rx="4"/>
+  </g>
+  <!-- aisle -->
+  <rect x="60" y="200" width="680" height="30" rx="6" fill="#2DD4BF" opacity="0.1"/>
+  <!-- plant -->
+  <circle cx="720" cy="420" r="28" fill="#166534"/>
+  <circle cx="708" cy="408" r="14" fill="#22C55E"/>
+  <circle cx="732" cy="410" r="12" fill="#4ADE80"/>
+  <rect x="714" y="430" width="12" height="22" rx="2" fill="#78350F"/>
+</svg>

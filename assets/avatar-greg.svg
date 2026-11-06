@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#FBBF24" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+  <!-- shoulders -->
+  <path d="M12 56 Q18 47 32 47 Q46 47 52 56 Z" fill="#2A3548"/>
+  <!-- head -->
+  <circle cx="34" cy="36" r="12" fill="#F1F5F9"/>
+  <!-- cap crown -->
+  <path d="M22 30 C22 18 28 14 36 14 C46 14 50 20 50 28 L50 32 C42 34 28 34 22 30 Z" fill="#2DD4BF"/>
+  <!-- button -->
+  <circle cx="36" cy="15" r="2.2" fill="#F1F5F9"/>
+  <!-- bill extending LEFT (clear golf/baseball bill) -->
+  <path d="M8 30 Q6 34 10 36 Q22 40 28 34 Q24 30 22 30 Q14 28 8 30 Z" fill="#2A3548"/>
+  <!-- tiny eye dots for friendly (stylized, not likeness) -->
+  <circle cx="30" cy="36" r="1.8" fill="#2A3548" opacity="0.55"/>
+  <circle cx="40" cy="36" r="1.8" fill="#2A3548" opacity="0.55"/>
+</svg>

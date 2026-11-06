@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 108">
+
+  <!-- place over desk; stroke color should be swapped to status hex -->
+  <ellipse cx="64" cy="54" rx="58" ry="48" fill="none" stroke="#2DD4BF" stroke-width="5" stroke-dasharray="8 6" opacity="0.95"/>
+
+</svg>

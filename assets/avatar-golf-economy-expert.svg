@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <circle cx="32" cy="32" r="30" fill="#15803D" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+
+  <!-- golf ball -->
+  <circle cx="28" cy="26" r="12" fill="#F1F5F9"/>
+  <circle cx="24" cy="22" r="1.5" fill="#15803D" opacity="0.4"/>
+  <circle cx="30" cy="24" r="1.5" fill="#15803D" opacity="0.4"/>
+  <circle cx="26" cy="28" r="1.5" fill="#15803D" opacity="0.4"/>
+  <circle cx="32" cy="30" r="1.5" fill="#15803D" opacity="0.4"/>
+  <!-- tee -->
+  <path d="M24 38 H32 L30 50 H26 Z" fill="#FBBF24"/>
+  <!-- tiny chart line -->
+  <polyline points="40,42 44,36 48,38 54,28" fill="none" stroke="#2DD4BF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="54" cy="28" r="2.5" fill="#2DD4BF"/>
+
+
+</svg>

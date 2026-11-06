@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <circle cx="32" cy="32" r="30" fill="#8B5CF6" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+
+  <rect x="16" y="12" width="32" height="40" rx="2" fill="#2A3548"/>
+  <rect x="20" y="16" width="24" height="36" rx="1" fill="#2DD4BF" opacity="0.5"/>
+  <!-- open door panel angled -->
+  <path d="M44 16 L56 20 L56 52 L44 52 Z" fill="#F1F5F9" opacity="0.9"/>
+  <circle cx="52" cy="36" r="2" fill="#8B5CF6"/>
+
+
+</svg>

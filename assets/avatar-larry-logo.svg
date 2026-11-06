@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <circle cx="32" cy="32" r="30" fill="#2DD4BF" stroke="#F1F5F9" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0A0F18" stroke-width="1" opacity="0.35"/>
+
+  <!-- pen nib -->
+  <path d="M32 10 L42 28 L32 54 L22 28 Z" fill="#F1F5F9"/>
+  <circle cx="32" cy="30" r="5" fill="#2DD4BF"/>
+  <path d="M32 35 L32 54" stroke="#2DD4BF" stroke-width="2.5"/>
+  <!-- bezier handles hint -->
+  <circle cx="18" cy="22" r="3" fill="#FBBF24"/>
+  <circle cx="46" cy="22" r="3" fill="#FBBF24"/>
+  <line x1="18" y1="22" x2="22" y2="28" stroke="#FBBF24" stroke-width="1.5"/>
+  <line x1="46" y1="22" x2="42" y2="28" stroke="#FBBF24" stroke-width="1.5"/>
+
+
+</svg>
